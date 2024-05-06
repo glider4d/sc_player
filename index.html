@@ -40,6 +40,7 @@
                         <a href="#download" class="btn">Скачать демо</a>
                     </div>
                 </div>
+                <!--
                 <div class="swiper-slide box">
                     <div class="image">
                         <img src="images/hero-carousel/background5.jpeg" alt="image">
@@ -72,10 +73,12 @@
                     </div>
                 </div>
 
-
+            -->
             </div>
+            <!--
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+        -->
         </div>
     </section>
     <!-- /home -->
@@ -89,7 +92,10 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/about/1.jpg" alt="image">
+
+                <!-- src="images/hero-carousel/background6.jpeg"  -->
+                <img src="images/hero-carousel/background6.jpeg" class="image_bout about_shadow" alt="image">
+                <!-- <div class="image_bout about_shadow">foewofkefewoewfowefojewofjoewfjowejfowjefojweofejw</div> -->
             </div>
             <div class="content">
                 <h3>Ключевые особенности</h3>
@@ -188,6 +194,7 @@
                     <div id="build-linux tab-plane" >
                         <h3>Linux Packages</h3>
                         <div class="list-group">
+                            <!--
                             <div 
                             class="list-group-item">
                             Sackha Content Player
@@ -210,7 +217,7 @@
                                 Панель управления
                                 <a href="https://tracker.debian.org/pkg/ffmpeg" download> package1</a>
                               </div>
-                               
+                            -->
                         </div>
                     </div>
                 </div>
@@ -233,7 +240,7 @@
             </div>
             <div class="content">
                 <i class="fa-solid fa-envelope"></i>
-                <div>email: coden@gmail.com</div>
+                <div>email: glider.4d5a@gmail.com</div>
                 <!-- <div>web: www.exaple.com</div> -->
             </div>
             <div class="content">
@@ -247,12 +254,12 @@
                 <img src="images/blog/3.jpg"/>
             </div>
             <div class="form-c">
-                <form action="">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                    <input type="number" placeholder="phone">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="send message">
+                <form>
+                    <input type="text" name="fname" placeholder="имя">
+                    <input type="email" name="femail" placeholder="email">
+                    <input type="number" name="fphone" placeholder="телефон">
+                    <textarea name="ftext" id="" cols="30" rows="10"></textarea>
+                    <input type="button" value="send message" onclick="onClickSendMesssage(this.form)">
                 </form>
             </div>
         </div>
@@ -264,7 +271,7 @@
     <!-- footer  -->
     <footer class="footer">
         <div class="content">
-            <h3>Sacha Content Player</h3> 
+            <h3>Sakha Content Player</h3> 
             <div class="shar">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
@@ -281,5 +288,6 @@
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 </html>

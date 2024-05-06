@@ -111,17 +111,34 @@ header .fa-bars{
     font-size: 2.5rem;
     margin: 1rem 0;
 }
-.about{
-    background: #eee;
+ 
+
+.image_bout{
+    border-radius: 0.8rem;
+
 }
+
+.about_shadow {
+    width: 2560px;
+    height: 2560px;
+    border-radius: 40px;
+    /* background: green; */
+    /* background-image: url('../images/hero-carousel/1.jpg'); */
+    background:                   url("../images/hero-carousel/background6.jpeg"); 
+    box-shadow: inset 0 0 25px rgba(101, 114, 126, 50), inset 0 0 25px rgba(140, 150, 170, 50), inset 0 0 25px rgb(83, 94, 104), inset 0 0 25px rgb(86, 96, 106);
+  }
+
 .download{
     background: #eee;
     height: 100vh;
     width: 100%;
-    padding: 30px 0;
+    /* padding: 30px 0; */
+    padding: 3rem 9%;
 }
 
 .download_image{
+    /* margin-left: 100px; */
+    border-radius: 0.8rem;
     width: 60rem;
     height: 100%;
     object-fit: cover;
@@ -190,6 +207,7 @@ header .fa-bars{
 
 .about {
     padding: 3rem 9%;
+    background: #eee;
 }
 
 /* @media(max-width:850px){
@@ -411,7 +429,7 @@ header .fa-bars{
     color: var(--th-color);
     font-size: 1.9rem;
 }
-.contact .row .form-c input[type="submit"]{
+.contact .row .form-c input[type="button"]{
     background: var(--sc-color);
     cursor: pointer;
     margin-bottom: 2rem;
@@ -419,7 +437,7 @@ header .fa-bars{
     border: 0.1rem solid var(--sc-color);
 
 }
-.contact .row .form-c input[type="submit"]:hover{
+.contact .row .form-c input[type="button"]:hover{
     background: none;
     color: var(--sc-color);
 }
